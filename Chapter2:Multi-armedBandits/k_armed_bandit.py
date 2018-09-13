@@ -30,5 +30,18 @@ class SimpleBandit:
     def random_choice(self):
         return random.randint(1, self.__k)
 
-    def reward(self, action):
+    def get_reward(self, action):
         return random.normalvariate(self.__value_estimate[action], 1)
+
+    def one_round(self):
+        to_explore = random.random() < self.__epsilon
+        if to_explore:
+            action = self.random_choice()
+        else:
+            action = max(self.__value_estimate, key=self.__value_estimate.get)
+        reward = self.get_reward(action)
+        estimate = self.__value_estimate[action]
+
+        self.__action_counter[action] += 1
+        self.__value_estimate[action] += (reward-estimate)/self.__action_counter[action]
+
