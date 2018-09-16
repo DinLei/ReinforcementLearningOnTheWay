@@ -1,2 +1,3 @@
 *.png
 *plt*
+__pycache__
