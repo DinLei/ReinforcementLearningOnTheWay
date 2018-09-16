@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ea471d7-c54f-4f12-a2ee-bd4e5ededcb0" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter2:Multi-armedBandits/notes" />
-      <change beforePath="$PROJECT_DIR$/Chapter2:Multi-armedBandits/k_armed_bandit.py" afterPath="$PROJECT_DIR$/Chapter2:Multi-armedBandits/k_armed_bandit.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/chapter2MultiArmedBandits/k_armed_bandits.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/chapter2MultiArmedBandits/simulate.py" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/Chapter1:TheReinforcementLearningProblem/exercise" afterPath="$PROJECT_DIR$/chapter1-TheReinforcementLearningProblem/exercise" />
+      <change beforePath="$PROJECT_DIR$/Chapter1:TheReinforcementLearningProblem/notes" afterPath="$PROJECT_DIR$/chapter1-TheReinforcementLearningProblem/notes" />
+      <change beforePath="$PROJECT_DIR$/Chapter2:Multi-armedBandits/exercise" afterPath="$PROJECT_DIR$/chapter2MultiArmedBandits/exercise" />
+      <change beforePath="$PROJECT_DIR$/Chapter2:Multi-armedBandits/k_armed_bandit.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Chapter2:Multi-armedBandits/notes" afterPath="$PROJECT_DIR$/chapter2MultiArmedBandits/notes" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -12,36 +19,42 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/ReinforcementLearningOnTheWay$simulate__1_.coverage" NAME="simulate (1) Coverage Results" MODIFIED="1537060038149" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter2MultiArmedBandits" />
+    <SUITE FILE_PATH="coverage/ReinforcementLearningOnTheWay$simulate.coverage" NAME="simulate Coverage Results" MODIFIED="1537063522005" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter2MultiArmedBandits" />
+    <SUITE FILE_PATH="coverage/ReinforcementLearningOnTheWay$k_armed_bandits.coverage" NAME="k_armed_bandits Coverage Results" MODIFIED="1537032164255" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter2:Multi-armedBandits" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="k_armed_bandit.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Chapter2:Multi-armedBandits/k_armed_bandit.py">
+      <file leaf-file-name="k_armed_bandits.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chapter2MultiArmedBandits/k_armed_bandits.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="550">
-              <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+            <state relative-caret-position="270">
+              <caret line="194" column="49" lean-forward="true" selection-start-line="193" selection-start-column="12" selection-end-line="194" selection-end-column="49" />
               <folding>
-                <element signature="e#133#151#0" expanded="true" />
+                <element signature="e#133#146#0" expanded="true" />
+                <element signature="e#1779#2252#0" expanded="false" />
+                <element signature="e#2293#2561#0" expanded="false" />
+                <element signature="e#2599#2938#0" expanded="false" />
+                <element signature="e#2984#3089#0" expanded="false" />
+                <element signature="e#3135#3290#0" expanded="false" />
+                <element signature="e#3338#4478#0" expanded="false" />
+                <element signature="e#4511#4938#0" expanded="false" />
+                <element signature="e#4981#5032#0" expanded="false" />
+                <element signature="e#5083#5108#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="notes" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Chapter2:Multi-armedBandits/notes">
+      <file leaf-file-name="simulate.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/chapter2MultiArmedBandits/simulate.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="795">
-              <caret line="37" column="27" lean-forward="false" selection-start-line="37" selection-start-column="27" selection-end-line="37" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="random.py" pinned="false" current-in-tab="false">
-        <entry file="file:///usr/bin/python3.6/lib/python3.6/random.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="8668">
-              <caret line="394" column="8" lean-forward="false" selection-start-line="394" selection-start-column="8" selection-end-line="394" selection-end-column="8" />
-              <folding />
+            <state relative-caret-position="66">
+              <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+              <folding>
+                <element signature="e#134#151#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -55,6 +68,29 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>__</find>
+      <find>__get_reward</find>
+      <find>choice</find>
+      <find>_confident</find>
+      <find>gradient</find>
+      <find>prefence</find>
+      <find>Bandit</find>
+      <find>initial_values</find>
+      <find>../images</find>
+      <find>preference</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>_</replace>
+      <replace>get_reward</replace>
+      <replace>_confidence</replace>
+      <replace>preference</replace>
+      <replace>initial_value</replace>
+      <replace>./images</replace>
+      <replace>prefer</replace>
+    </replaceStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -65,8 +101,14 @@
         <option value="$PROJECT_DIR$/Chapter1:TheReinforcementLearningProblem/exercise" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/Chapter2:Multi-armedBandits/exercise" />
-        <option value="$PROJECT_DIR$/Chapter2:Multi-armedBandits/k_armed_bandit.py" />
         <option value="$PROJECT_DIR$/Chapter2:Multi-armedBandits/notes" />
+        <option value="$PROJECT_DIR$/Chapter2:Multi-armedBandits/k_armed_bandit.py" />
+        <option value="$PROJECT_DIR$/Chapter2:Multi-armedBandits/simulate.py" />
+        <option value="$PROJECT_DIR$/Chapter2:Multi-armedBandits/__init__.py" />
+        <option value="$PROJECT_DIR$/Chapter2:Multi-armedBandits/k_armed_bandits.py" />
+        <option value="$PROJECT_DIR$/chapter2MultiArmedBandits/k_armed_bandits.py" />
+        <option value="$PROJECT_DIR$/chapter2MultiArmedBandits/simulate.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -76,11 +118,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="488" />
     <option name="y" value="24" />
-    <option name="width" value="1431" />
-    <option name="height" value="1056" />
+    <option name="width" value="1429" />
+    <option name="height" value="1048" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -104,16 +146,6 @@
               <item name="ReinforcementLearningOnTheWay" type="b2602c69:ProjectViewProjectNode" />
               <item name="ReinforcementLearningOnTheWay" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="ReinforcementLearningOnTheWay" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ReinforcementLearningOnTheWay" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter1:TheReinforcementLearningProblem" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ReinforcementLearningOnTheWay" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ReinforcementLearningOnTheWay" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter2:Multi-armedBandits" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -126,7 +158,13 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/PycharmProjects/Codes/test" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/e" />
+      <recent name="$PROJECT_DIR$/Chapter2:Multi-armedBandits" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -139,6 +177,32 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="simulate" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter2MultiArmedBandits" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="ReinforcementLearningOnTheWay" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter2MultiArmedBandits/simulate.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Python.simulate" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -165,15 +229,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="488" y="24" width="1855" height="1092" extended-state="6" />
+    <frame x="488" y="24" width="1855" height="1092" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5877193" sideWeight="0.5019542" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32785088" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23171413" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3859649" sideWeight="0.49804577" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5997807" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32822758" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19262981" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="R Packages" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="R Graphics" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -206,12 +271,84 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Chapter2:Multi-armedBandits/k_armed_bandit.py">
+    <entry file="file://$PROJECT_DIR$/chapter2MultiArmedBandits/k_armed_bandits.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="814">
+          <caret line="37" column="37" lean-forward="false" selection-start-line="37" selection-start-column="33" selection-end-line="37" selection-end-column="37" />
+          <folding>
+            <element signature="e#133#146#0" expanded="true" />
+            <element signature="e#1779#2252#0" expanded="false" />
+            <element signature="e#2293#2561#0" expanded="false" />
+            <element signature="e#2599#2938#0" expanded="false" />
+            <element signature="e#2984#3089#0" expanded="false" />
+            <element signature="e#3135#3290#0" expanded="false" />
+            <element signature="e#3338#4478#0" expanded="false" />
+            <element signature="e#4511#4938#0" expanded="false" />
+            <element signature="e#4981#5032#0" expanded="false" />
+            <element signature="e#5083#5108#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter2MultiArmedBandits/simulate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="19" lean-forward="true" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+          <folding>
+            <element signature="e#134#151#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter2MultiArmedBandits/k_armed_bandits.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#133#151#0" expanded="true" />
+            <element signature="e#133#146#0" expanded="true" />
+            <element signature="e#1779#2252#0" expanded="false" />
+            <element signature="e#2293#2561#0" expanded="false" />
+            <element signature="e#2599#2938#0" expanded="false" />
+            <element signature="e#2984#3089#0" expanded="false" />
+            <element signature="e#3135#3290#0" expanded="false" />
+            <element signature="e#3338#4478#0" expanded="false" />
+            <element signature="e#4511#4938#0" expanded="false" />
+            <element signature="e#4981#5032#0" expanded="false" />
+            <element signature="e#5083#5108#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter2MultiArmedBandits/notes">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="814">
+          <caret line="37" column="27" lean-forward="false" selection-start-line="37" selection-start-column="27" selection-end-line="37" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/bin/python3.6/lib/python3.6/random.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8492">
+          <caret line="394" column="8" lean-forward="false" selection-start-line="394" selection-start-column="8" selection-end-line="394" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter2MultiArmedBandits/k_armed_bandits.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#133#146#0" expanded="true" />
+            <element signature="e#1779#2252#0" expanded="false" />
+            <element signature="e#2293#2561#0" expanded="false" />
+            <element signature="e#2599#2938#0" expanded="false" />
+            <element signature="e#2984#3089#0" expanded="false" />
+            <element signature="e#3135#3290#0" expanded="false" />
+            <element signature="e#3338#4478#0" expanded="false" />
+            <element signature="e#4511#4938#0" expanded="false" />
+            <element signature="e#4981#5032#0" expanded="false" />
+            <element signature="e#5083#5108#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -224,17 +361,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter1:TheReinforcementLearningProblem/exercise">
+    <entry file="file://$PROJECT_DIR$/chapter1-TheReinforcementLearningProblem/exercise">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
           <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter1:TheReinforcementLearningProblem/notes">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="39" lean-forward="false" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
         </state>
       </provider>
     </entry>
@@ -248,43 +378,129 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter2:Multi-armedBandits/exercise">
+    <entry file="file://$PROJECT_DIR$/chapter2MultiArmedBandits/exercise">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="638">
           <caret line="29" column="56" lean-forward="true" selection-start-line="29" selection-start-column="56" selection-end-line="29" selection-end-column="56" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2017.3/system/python_stubs/-1713312233/numpy/random/mtrand.py">
+    <entry file="file://$PROJECT_DIR$/chapter1-TheReinforcementLearningProblem/notes">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1258">
-          <caret line="1585" column="4" lean-forward="false" selection-start-line="1585" selection-start-column="4" selection-end-line="1585" selection-end-column="4" />
+        <state relative-caret-position="110">
+          <caret line="5" column="39" lean-forward="false" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
         </state>
       </provider>
     </entry>
     <entry file="file:///usr/bin/python3.6/lib/python3.6/random.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8668">
-          <caret line="394" column="8" lean-forward="false" selection-start-line="394" selection-start-column="8" selection-end-line="394" selection-end-column="8" />
+        <state relative-caret-position="264">
+          <caret line="216" column="8" lean-forward="false" selection-start-line="216" selection-start-column="8" selection-end-line="216" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter2:Multi-armedBandits/k_armed_bandit.py">
+    <entry file="file://$USER_HOME$/.PyCharm2017.3/system/python_stubs/-1713312233/numpy/random/mtrand.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        <state relative-caret-position="188">
+          <caret line="228" column="4" lean-forward="false" selection-start-line="228" selection-start-column="4" selection-end-line="228" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter2MultiArmedBandits/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter2MultiArmedBandits/notes">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter2MultiArmedBandits/k_armed_bandits.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="194" column="49" lean-forward="true" selection-start-line="193" selection-start-column="12" selection-end-line="194" selection-end-column="49" />
           <folding>
-            <element signature="e#133#151#0" expanded="true" />
+            <element signature="e#133#146#0" expanded="true" />
+            <element signature="e#1779#2252#0" expanded="false" />
+            <element signature="e#2293#2561#0" expanded="false" />
+            <element signature="e#2599#2938#0" expanded="false" />
+            <element signature="e#2984#3089#0" expanded="false" />
+            <element signature="e#3135#3290#0" expanded="false" />
+            <element signature="e#3338#4478#0" expanded="false" />
+            <element signature="e#4511#4938#0" expanded="false" />
+            <element signature="e#4981#5032#0" expanded="false" />
+            <element signature="e#5083#5108#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter2:Multi-armedBandits/notes">
+    <entry file="file://$USER_HOME$/SearchProject/venv/lib/python3.6/site-packages/matplotlib/pyplot.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="795">
-          <caret line="37" column="27" lean-forward="false" selection-start-line="37" selection-start-column="27" selection-end-line="37" selection-end-column="27" />
+        <state relative-caret-position="294">
+          <caret line="3714" column="4" lean-forward="false" selection-start-line="3714" selection-start-column="4" selection-end-line="3714" selection-end-column="4" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter2MultiArmedBandits/images/figure_2_4.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter2MultiArmedBandits/images/figure_2_5.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter2MultiArmedBandits/images/figure_2_6.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter2MultiArmedBandits/images/figure_2_3.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter2MultiArmedBandits/images/figure_2_2.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter2MultiArmedBandits/images/figure_2_1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plt">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state relative-caret-position="-1386">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="5" lean-forward="false" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter2MultiArmedBandits/simulate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding>
+            <element signature="e#134#151#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
