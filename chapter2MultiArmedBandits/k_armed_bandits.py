@@ -53,7 +53,8 @@ class KArmedBandits:
         self._initial_value = initial_value
         self._prefer_baseline = prefer_baseline
         
-        self._prefer = np.zeros(k)
+        self._preference = np.zeros(k)
+        self._action_prob = np.zeros(k)
         self._action_counter = np.zeros(k)
         self._value_estimate = np.zeros(k) + initial_value
         self._action_values = np.random.randn(k) + true_reward
@@ -69,7 +70,8 @@ class KArmedBandits:
         self._average_reward = 0
         self.__current_reward = 0
         self.__current_action = None
-        self._prefer = np.zeros(self._k)
+        self._preference = np.zeros(self._k)
+        self._action_prob = np.zeros(self._k)
         self._action_counter = np.zeros(self._k)
         self._value_estimate = np.zeros(self._k) + self._initial_value
         self._action_values = np.random.randn(self._k) + self._true_reward
@@ -97,7 +99,7 @@ class KArmedBandits:
         estimate = (self._value_estimate +
                     self._confidence *
                     np.sqrt(np.divide(
-                        np.log(self.__rounds),
+                        np.log(self.__rounds+1),
                         self._action_counter+1e-5)))
         return estimate.argmax()
 
@@ -107,7 +109,10 @@ class KArmedBandits:
         根据梯度更新期望行为偏好
         :return:
         """
-        return self._prefer.argmax()
+        soft_max_deno = np.sum(np.exp(self._preference))
+        self._action_prob = np.divide(np.exp(self._preference), soft_max_deno)
+        return np.random.choice(range(self._k), p=self._action_prob)
+        # return self._action_prob.argmax()
 
     def __get_reward(self, action):
         """
@@ -115,7 +120,7 @@ class KArmedBandits:
         :param action: 选择的行为：{0 ～ k-1}
         :return: 
         """
-        return random.normalvariate(self._action_values[action], 1)
+        return np.random.randn() + self._action_values[action]
 
     def __update_state(self, action):
         """
@@ -125,7 +130,7 @@ class KArmedBandits:
         """
         self.__rounds += 1
         self._action_counter[action] += 1
-        step_size = (np.divide(1, self._action_counter[action]) 
+        step_size = (np.divide(1.0, self._action_counter[action])
                      if self._stationary else self._alpha)
 
         reward = self.__get_reward(action)
@@ -142,11 +147,9 @@ class KArmedBandits:
                 baseline = self._average_reward
             else:
                 baseline = 0
-            soft_max_deno = np.sum(np.exp(self._prefer))
-            action_prob = np.divide(np.exp(self._prefer), soft_max_deno)
             one_hot = np.zeros(self._k)
             one_hot[action] = 1
-            self._prefer += self._alpha*(reward-baseline)*(one_hot-action_prob)
+            self._preference += self._alpha*(reward-baseline)*(one_hot-self._action_prob)
         else:
             self._value_estimate[action] += (
                     step_size * (reward - self._value_estimate[action]))
@@ -156,15 +159,15 @@ class KArmedBandits:
         一次行为选择
         :return:
         """
-        if self.__rounds == 0:
-            action = random.randint(0, self._k-1)
+        # if self.__rounds == 0:
+        #     action = random.randint(0, self._k-1)
+        # else:
+        if self._strategy == "greedy":
+            action = self.__greedy_action()
+        elif self._strategy == "ucb":
+            action = self.__ucb_action()
         else:
-            if self._strategy == "greedy":
-                action = self.__greedy_action()
-            elif self._strategy == "ucb":
-                action = self.__ucb_action()
-            else:
-                action = self.__grad_bandit_action()
+            action = self.__grad_bandit_action()
         self.__update_state(action)
 
     def get_action_reward(self):
@@ -176,28 +179,3 @@ class KArmedBandits:
 
     def get_action_value(self):
         return self._action_values
-
-
-if __name__ == "__main__":
-    # from chapter2MultiArmedBandits.k_armed_bandits import KArmedBandits
-    from tqdm import tqdm
-
-    bandit = KArmedBandits()
-    runs = 10
-    time = 1000
-    best_action_counts = np.zeros((runs, time))
-    rewards = np.zeros(best_action_counts.shape)
-
-    for r in tqdm(range(runs)):
-        bandit.reset()
-        for t in range(time):
-            bandit.one_act()
-            act, rew = bandit.get_action_reward()
-            rewards[r, t] = rew
-            if act == bandit.best_action:
-                best_action_counts[r, t] = 1
-    counts = best_action_counts.mean(axis=0)
-    rewards = rewards.mean(axis=0)
-
-    print(counts)
-    print(rewards)
