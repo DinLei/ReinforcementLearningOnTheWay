@@ -107,6 +107,7 @@ class KArmedBandits:
         """
         行为偏好选择
         根据梯度更新期望行为偏好
+        这里有个隐藏大BUG：按照行为概率分布取对应的行为，而不是取最大概率值的行为
         :return:
         """
         soft_max_deno = np.sum(np.exp(self._preference))
